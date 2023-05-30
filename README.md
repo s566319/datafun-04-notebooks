@@ -15,8 +15,8 @@ In Windows, use PowerShell, in Mac, use bash.
 Verify you've added some essential packages to your default Python environment.
 
 ```shell
-python -m pip install --upgrade pip ipykernel jupyterlab
-python -m pip install --upgrade black ruff
+python3 -m pip install --upgrade pip ipykernel jupyterlab
+python3 -m pip install --upgrade black ruff
 ```
 
 Note: If `py` or `python3` works on your machine, use that instead of `python` in the commands.
